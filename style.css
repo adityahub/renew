@@ -1,0 +1,530 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+  @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic);
+  @import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+  @import url(http://fonts.googleapis.com/css?family=Cutive+Mono);
+
+  body{
+    background-color: #f2dede;
+  }
+
+   .content {
+  
+  background-color: #fce8f1;
+  padding: 15rem 0 12rem 0;
+}
+
+ .row {
+  width: 90%;
+  margin: auto;
+}
+
+
+ .papersubtitle {
+  font-family: Montserrat, sans-serif;
+  font-size: .75em;
+  line-height: 2em;
+  font-weight: bold;
+  letter-spacing: 6px;
+}
+
+ hr {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  width: 100%;
+  border: 1px solid #151515;
+}
+
+ .paperinfo {
+  font-family: Montserrat, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-top: 0;
+}
+
+ .firstfont {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  color:#151515;
+  font-size: 4em;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  margin-top: 75px;
+  position: relative;
+}
+
+ .mainsection {
+  margin-top: 40px;
+}
+
+
+ h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+  letter-spacing: 3px;
+  font-size: 2em;
+  line-height: 1.75em;
+}
+
+ p {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1em;
+  line-height: 2em;
+  margin-top: 25px;
+}
+
+ h3{
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+  font-size: 1.5em;
+  line-height: 1.75em;
+}
+
+.media hr {
+  width: 75%;
+}
+
+ .mediabody {
+  font-family: 'Libre Baskerville', serif;
+  font-size: .8em;
+}
+
+.fontawesome-umbrella {
+  margin-right: 20px;
+  font-size: 2em;
+  float: left;
+  padding-top: 0;
+}
+
+ .weather {
+  font-family: 'Libre Baskerville', serif;
+  font-size: .8em;
+  margin-top: 20px;
+  line-height: 2em;
+
+}
+
+ .weatherlabel {
+  font-family: Montserrat, sans-serif;
+  font-size: 1em;
+  letter-spacing: 5px;
+}
+
+/*--Media Query--*/
+@media only screen and (min-width : 768px) {
+
+ .row {
+width: 70%;
+margin: auto;
+}
+
+ .firstfont {
+  font-size: 5em;
+}
+
+ .mainstory {
+  border-right: 2px solid #151515;
+  padding-right: 40px;
+  padding-bottom: 60px;
+
+
+}
+
+ h2 {
+  letter-spacing: 3px;
+  font-size: 3em;
+  line-height: 1.75em;
+}
+
+ p {
+  font-size: 1em;
+  line-height: 2em;
+  margin-top: 25px;
+}
+
+ h3{
+  font-style: italic;
+  font-size: 1.5em;
+  line-height: 1.75em;
+}
+
+ .media {
+  padding-left: 40px;
+}
+
+.media hr {
+  width: 75%;
+}
+
+ .mediabody {
+  font-size: .8em;
+}
+
+.fontawesome-umbrella {
+  margin-right: 20px;
+  font-size: 2em;
+  float: left;
+  padding-top: 0;
+}
+
+ .weather {
+  font-size: .8em;
+  margin-top: 20px;
+  line-height: 2em;
+
+}
+
+ .weatherlabel {
+  font-size: 1em;
+  letter-spacing: 5px;
+}
+
+}
+
+.navbar-brand {
+  font-size: 1em;
+  line-height: 2em;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
+.navbar{
+  font-size: 1em;
+  line-height: 2em;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
+#101 {
+  border-right: 2px solid #151515;
+  padding-right: 40px;
+  padding-bottom: 60px;
+
+
+}
+
+ h2 {
+  letter-spacing: 3px;
+  font-size: 1.5em;
+  line-height: 1.75em;
+}
+
+ p {
+  font-size: 1em;
+  line-height: 2em;
+  margin-top: 25px;
+}
+
+ h3{
+  font-style: italic;
+  font-size: 1.5em;
+  line-height: 1.75em;
+}
+
+ .media {
+  padding-left: 40px;
+}
+
+.media hr {
+  width: 75%;
+}
+
+ .mediabody {
+  font-size: .8em;
+}
+
+.fontawesome-umbrella {
+  margin-right: 20px;
+  font-size: 2em;
+  float: left;
+  padding-top: 0;
+}
+
+ .weather {
+  font-size: .8em;
+  margin-top: 20px;
+  line-height: 2em;
+
+}
+
+ .weatherlabel {
+  font-size: 1em;
+  letter-spacing: 5px;
+}
+
+}
+
+/*------End Responsive styling--------*/
+
+ .colophon {
+  font-family: Montserrat, sans-serif;
+  color: slategrey;
+  font-size: .75em;
+  line-height: 2.5em;
+  margin: 8rem 0 0 0;
+  padding: 0 5rem 0 5rem;
+  letter-spacing: 3px;
+}
+
+ a {
+  color: orangered;
+}
+
+ a:hover {
+  text-decoration: none;
+  color: slategrey;
+}
+
+.elevator-button{
+  background-color: black;
+  height: 60px;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 1em;
+}
+body { padding-top: 50px; }
+
+
+#eighteen .content {  
+  background-color: #CBCFD8;
+  background-image: url(stardust.jpg);
+  padding: 2rem 0 12rem 0;
+}
+
+#eighteen .row {
+  width: 80%;
+  margin: 5px auto auto auto;
+}
+
+@keyframes neonspark  { 
+0% { text-shadow: 0 0 10px rgba(255,255,255,1); }
+20% {
+  text-shadow: 0 0 10px rgba(255,255,255,1),
+      0 0 20px rgba(255,255,255,0.4); 
+  }
+30% { text-shadow: 0 0 10px rgba(255,255,255,1); }
+40% { 
+text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px #ffffff , 0 0 30px #ffffff , 0 0 40px #ffffff , 0 0 50px #ffffff;
+  }
+100% { 
+text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px #ffffff , 0 0 30px #ffffff , 0 0 40px #ffffff , 0 0 50px #ffffff;
+  }
+}
+
+@-webkit-keyframes neonspark  { 
+0% { text-shadow: 0 0 10px rgba(255,255,255,1); }
+20% {
+  text-shadow: 0 0 10px rgba(255,255,255,1),
+      0 0 20px rgba(255,255,255,0.4); 
+  }
+30% { text-shadow: 0 0 10px rgba(255,255,255,1); }
+40% { 
+text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px #ffffff , 0 0 30px #ffffff , 0 0 40px #ffffff , 0 0 50px #ffffff;
+  }
+100% { 
+text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px #ffffff , 0 0 30px #ffffff , 0 0 40px #ffffff , 0 0 50px #ffffff;
+  }
+}
+
+@-moz-keyframes neonspark  { 
+0% { text-shadow: 0 0 10px rgba(255,255,255,1); }
+20% {
+  text-shadow: 0 0 10px rgba(255,255,255,1),
+      0 0 20px rgba(255,255,255,0.4); 
+  }
+30% { text-shadow: 0 0 10px rgba(255,255,255,1); }
+40% { 
+text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px #ffffff , 0 0 30px #ffffff , 0 0 40px #ffffff , 0 0 50px #ffffff;
+  }
+100% { 
+text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px #ffffff , 0 0 30px #ffffff , 0 0 40px #ffffff , 0 0 50px #ffffff;
+  }
+}
+
+@-o-keyframes neonspark  { 
+0% { text-shadow: 0 0 10px rgba(255,255,255,1); }
+20% {
+  text-shadow: 0 0 10px rgba(255,255,255,1),
+      0 0 20px rgba(255,255,255,0.4); 
+  }
+30% { text-shadow: 0 0 10px rgba(255,255,255,1); }
+40% { 
+text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px #ffffff , 0 0 30px #ffffff , 0 0 40px #ffffff , 0 0 50px #ffffff;
+  }
+100% { 
+text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px #ffffff , 0 0 30px #ffffff , 0 0 40px #ffffff , 0 0 50px #ffffff;
+  }
+}
+
+#eighteen .row {
+  width: 90%;
+
+}
+
+#eighteen .firstfont {
+  font-family: Quicksand, sans-serif;
+  font-size:4em;
+  line-height: 1.25em;
+  color: snow;
+  letter-spacing: 10px;
+  text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 20px #ffffff , 0 0 30px #ffffff , 0 0 40px #ffffff , 0 0 50px #ffffff;
+}
+
+#eighteen .secondfont {
+  font-family: font-family: 'Cutive Mono', ;
+  font-size: 2em;
+  width: 90%;
+  letter-spacing: 1px;
+  margin: 50px auto auto auto;
+  color: #151515;
+}
+
+#eighteen .animatea {
+  animation: neonspark 3s 5s 5;
+  -webkit-animation: neonspark 3s 5s 5;
+  -moz-animation: neonspark 3s 5s 5;
+  -o-animation: neonspark 3s 5s 5;
+
+}
+
+#eighteen .animateo {
+  animation: neonspark 2.2s 2s 7;
+  -webkit-animation: neonspark 2.2s 2s 7;
+  -moz-animation: neonspark 2.2s 2s 7;
+  -o-animation: neonspark 2.2s 2s 7;
+
+}
+
+
+/*--Media Query--*/
+@media only screen and (min-width : 768px) {
+
+#eighteen .row {
+  width: 60%;
+
+}
+
+#eighteen .firstfont {
+  font-size:8.75em;
+}
+
+#eighteen .secondfont {
+  width: 50%;
+  margin: 100px auto auto auto;
+}
+
+}
+
+/*------End Responsive styling--------*/
+
+#eighteen .colophon {
+  font-family: Montserrat, sans-serif;
+  color: slategrey;
+  font-size: .75em;
+  line-height: 2.5em;
+  margin: 8rem 0 0 0;
+  padding: 0 5rem 0 5rem;
+  letter-spacing: 3px;
+}
+
+#eighteen a {
+  color: orangered;
+}
+
+#eighteen a:hover {
+  text-decoration: none;
+  color: slategrey;
+}
+
+#102 {
+  border-right: 2px solid #151515;
+  padding-right: 40px;
+  padding-bottom: 60px;
+
+
+}
+
+ h2 {
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 3px;
+  font-size: 1.75em;
+  line-height: 1.75em;
+  color: #fff;
+}
+
+ p {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-top: 25px;
+  color: #fff;
+  font-family: 'Cutive Mono', ;
+}
+
+ h3{
+  
+  color: #FFF;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 3px;
+  font-size: 2em;
+  line-height: 1.75em;
+}
+
+hr{
+  background-color: #fff;
+}
+
+ .media {
+  padding-left: 40px;
+}
+
+.media hr {
+  width: 75%;
+}
+
+ .mediabody {
+  font-size: .8em;
+}
+
+.fontawesome-umbrella {
+  margin-right: 20px;
+  font-size: 2em;
+  float: left;
+  padding-top: 0;
+}
+
+ .weather {
+  font-size: .8em;
+  margin-top: 20px;
+  line-height: 2em;
+
+}
+
+ .weatherlabel {
+  font-size: 1em;
+  letter-spacing: 5px;
+}
+
+}
+
+/*------End Responsive styling--------*/
+
+ .colophon {
+  font-family: Montserrat, sans-serif;
+  color: slategrey;
+  font-size: .75em;
+  line-height: 2.5em;
+  margin: 8rem 0 0 0;
+  padding: 0 5rem 0 5rem;
+  letter-spacing: 3px;
+}
+
+ a {
+  color: orangered;
+}
+
+ a:hover {
+  text-decoration: none;
+  color: slategrey;
+}
+

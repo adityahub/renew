@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digest</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="elevator.js"></script>
+
+  
+
+  
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+           <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">#Pushnews</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="digest.html">How to use?</a></li>
+            <li><a href="trending.html">Trending Now</a></li>
+            <li><a href="#about">Tell Me a Story</a></li>
+            <li><a href="#about">A Love Letter</a></li>
+            <li><a href="#contact">I Want to Talk</a></li>
+            <li><a href="#contact"> What's this About?</a></li>
+            
+          </ul>
+          
+        </div>
+  </div>
+</nav>
+<img src="digest.jpg" class="img-responsive">
+<img src="tagline.jpg" class="img-responsive">
+<img src="quote.jpg" class="img-responsive">
+
+  <div class="col-sm-12">
+  <div id="id01"></div>
+             <script>
+             function myFunction(arr) {
+    var out = "";
+    var i;
+    for(i = 0; i<arr.length; i++) {
+        out += '<h2 class="text-left">' + arr[i].head + '</h2><img src="' + arr[i].image + '" class="img-responsive"><p class="text-left">' + arr[i].para + '</p></br><hr>';
+        
+        
+    }
+    document.getElementById("id01").innerHTML = out;
+}
+             </script>
+           </div>
+
+
+   <div class="elevator-button"><br>Back to Top</div>
+
+<script>
+// Elevator script included on the page, already.
+
+window.onload = function() {
+  var elevator = new Elevator({
+    element: document.querySelector('.elevator-button'),
+    mainAudio: 'elevator-music.mp3',
+    endAudio: 'ding.mp3'
+  });
+}
+</script>
+
+   
+ 
+
+   <script src="http://5wordsapp.pancakeapps.com/pushnews.js"></script>
+    
+</body>
+</html>
