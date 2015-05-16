@@ -29,7 +29,16 @@
         
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="js/site.js"></script>
+  <script type="text/javascript" src="GAPlugin.js"></script>
   
+  <script type="text/javascript">
+  var gaPlugin;
+
+function onDeviceReady() {
+    gaPlugin = window.plugins.gaPlugin;
+    gaPlugin.init(successHandler, errorHandler, "UA-58204151-4", 10);
+}
+</script>
         <title>Pushnews</title>
         <script type="text/javascript">
 <!--
