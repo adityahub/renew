@@ -55,6 +55,8 @@
 
     <!-- Pushwoosh plugin -->
     <gap:plugin name="com.pushwoosh.plugins.pushwoosh" source="plugins.cordova.io" />
+    
+    <gap:plugin name="com.adobe.plugins.gaplugin" />
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
